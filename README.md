@@ -28,6 +28,12 @@ The projects focus on system administration, networking, user account management
 - Active Directory security group access
 - Troubleshooting access-denied errors
 
+### 5. [PowerShell — Active Directory Health Report](PowerShell/AD-HealthReport.ps1)
+- Created a PowerShell script to check essential domain controller services.
+- Included Active Directory diagnostic checks using `dcdiag`.
+- Added DNS SRV record verification.
+- Generated a text report for troubleshooting and documentation.
+
 ## Lab Environment
 
 - **Server:** Windows Server 2025
