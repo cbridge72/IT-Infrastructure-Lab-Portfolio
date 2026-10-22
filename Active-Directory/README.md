@@ -1,3 +1,4 @@
+
 # Active Directory Administration
 
 ## Project Overview
@@ -16,4 +17,11 @@ Built and administered an Active Directory lab using Windows Server 2025 and a d
 - Microsoft Hyper-V
 
 ## Documentation
-Detailed project notes and screenshots will be added as this portfolio develops.
+
+### Active Directory Users and Organizational Units
+
+Created and organized Active Directory objects within the `corp.berglab.test` domain.
+
+The environment includes custom organizational units for users, groups, servers, and workstations. Test user accounts were created to practice account administration, authentication, group membership, and permissions.
+
+![Active Directory Users and OUs](Active%20Directory.PNG)<img width="1024" height="811" alt="01-Active-Directory-OU-and-Users" src="https://github.com/user-attachments/assets/5ae4232b-e1a6-4415-9ed1-9b13fdaafcd0" />
