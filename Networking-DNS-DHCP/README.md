@@ -1,4 +1,4 @@
--- --Networking, DNS, and DHCP
+Networking, DNS, and DHCP
  
 Project Overview
 
