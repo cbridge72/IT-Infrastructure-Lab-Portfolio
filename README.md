@@ -31,22 +31,7 @@ These records associate computer names with IPv4 addresses on my lab network.
 
 ![DNS Manager showing DNS Host A records](DNS.PNG)
 
-## Documentation
 
-I will add detailed lab notes, troubleshooting examples, and screenshots as this portfolio develops.
-
-## DNS Configuration Screenshot
-
-Using DNS Manager on Windows Server 2025, I examined the `corp.berglab.test` forward lookup zone on domain controller `DC01`.
-
-The screenshot shows the following DNS Host (A) records:
-
-- `dc01` — `172.22.10.20`
-- `Win11-Client` — `172.22.10.30`
-
-These records associate computer names with IPv4 addresses on my lab network.
-
-![DNS Manager showing DNS Host A records](DNS.PNG)
 
 ## 💻 Client Workstation Configuration & Verification
 
