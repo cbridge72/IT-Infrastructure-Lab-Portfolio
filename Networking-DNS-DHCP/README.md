@@ -1,4 +1,4 @@
-Networking, DNS, and DHCP
+**** Networking, DNS, and DHCP
  
 Project Overview
 
@@ -9,7 +9,7 @@ Skills Demonstrated
 - Used Windows networking commands to diagnose connectivity problems.
 - Troubleshot client-to-server communication.
 - Verified network settings in a Hyper-V virtual environment.
-- 
+
 Lab Environment
 
 - Windows Server 2025
