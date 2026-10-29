@@ -46,7 +46,7 @@ To verify the correct operational environment of the Active Directory Domain Ser
 ### 🌐 Network Interface Verification
 The screenshot below documents the output of the network configuration tool (`ipconfig /all`) executed from the elevated Command Prompt on the client workstation. This verifies successful end-to-end routing and core network service provisioning:
 
-![Windows 11 Client Network Verification](client-ip.png)
+![Windows 11 Client Network Verification](client-ip.PNG)
 
 ### 🔍 Key Technical Takeaways from the Verification Output:
 1.  **Domain Domain Name System (DNS) Alignment:** The interface has successfully updated its **Primary DNS Suffix** and **DNS Suffix Search List** to match the target corporate domain: `corp.berglab.test`.
