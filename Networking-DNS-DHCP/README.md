@@ -1,4 +1,5 @@
 Networking, DNS, and DHCP
+
 Project Overview
 Configured and troubleshot networking services in a Windows Server 2025 lab environment using a domain-joined Windows 11 client.
 Skills Demonstrated
