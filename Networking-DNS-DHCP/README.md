@@ -1,4 +1,4 @@
-Networking, DNS, and DHCP
+**Networking, DNS, and DHCP
 
 Project Overview
 
@@ -16,6 +16,7 @@ Lab Environment
 - Windows 11 Domain-Joined Client
 - Microsoft Hyper-V
 Documentation
+
 Detailed lab notes, troubleshooting examples, and screenshots will be added as this portfolio develops.
 
 
