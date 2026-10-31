@@ -25,3 +25,13 @@ Created and organized Active Directory objects within the `corp.berglab.test` do
 The environment includes custom organizational units for users, groups, servers, and workstations. Test user accounts were created to practice account administration, authentication, group membership, and permissions.
 
 ![Active Directory Users and OUs](Active%20Directory.PNG)<img width="1024" height="811" alt="01-Active-Directory-OU-and-Users" src="https://github.com/user-attachments/assets/5ae4232b-e1a6-4415-9ed1-9b13fdaafcd0" />
+
+Windows Client Domain Connectivity Verification
+
+This lab includes verification of Windows client network connectivity as part of the Active Directory domain-join process.
+
+The screenshot below documents the client IP configuration used to verify network settings and DNS connectivity to the domain environment.
+
+
+
+Verification: Client IP configuration was reviewed to support Active Directory domain connectivity troubleshooting and validation.
