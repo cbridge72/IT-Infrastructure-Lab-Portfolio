@@ -35,3 +35,6 @@ The screenshot below documents the client IP configuration used to verify networ
 
 
 Verification: Client IP configuration was reviewed to support Active Directory domain connectivity troubleshooting and validation.
+
+![Windows Client IP Configuration](client-ip.PNG)
+  
