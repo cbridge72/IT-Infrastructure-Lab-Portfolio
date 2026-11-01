@@ -42,5 +42,5 @@ Verification: Client IP configuration was reviewed to support Active Directory d
 
 Verified that the Windows client was joined to the Active Directory domain using the `whoami` and `systeminfo` commands. The results demonstrate the client's domain membership and the authenticated domain user account.
 
-![Windows Client Domain Join Verification](03-Client-Domain-Join-Verification.png)
+![Windows Client Domain Join Verification](03-Client-Domain-Join-Verification.PNG)
   
