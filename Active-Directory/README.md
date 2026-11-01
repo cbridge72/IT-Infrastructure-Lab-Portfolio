@@ -37,4 +37,10 @@ The screenshot below documents the client IP configuration used to verify networ
 Verification: Client IP configuration was reviewed to support Active Directory domain connectivity troubleshooting and validation.
 
 ![Windows Client IP Configuration](client-ip.PNG)
+
+## Windows Client Domain Join Verification
+
+Verified that the Windows client was joined to the Active Directory domain using the `whoami` and `systeminfo` commands. The results demonstrate the client's domain membership and the authenticated domain user account.
+
+![Windows Client Domain Join Verification](03-Client-Domain-Join-Verification.png)
   
