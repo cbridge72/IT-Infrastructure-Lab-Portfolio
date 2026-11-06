@@ -8,8 +8,8 @@ The objective was to separate IT and Sales into different VLANs while allowing c
 
 ## Equipment
 
-- Cisco 2911 Router
-- Cisco 2960 Switch
+- Two Cisco 2911 Routers
+- One Cisco 2960 Switch
 - Three PCs
 - Cisco Packet Tracer
 
@@ -54,19 +54,21 @@ This confirmed successful inter-VLAN communication.
 
 ### VLAN Configuration
 
-![VLAN configuration](vlans.PNG)
+![VLAN Configuration](vlans.PNG)
 
 ### 802.1Q Trunk Verification
 
-![Trunk verification](trunk.PNG)
+![Trunk Verification](trunk.PNG)
 
 ### Inter-VLAN Ping Test
 
-![Successful ping test](ping.PNG)
+![Successful Inter-VLAN Ping Test](ping.PNG)
 
-### Additional Lab Screenshot
+### Network Topology
 
-![Cisco lab](cisco%20lab.PNG)
+![Cisco Network Topology](cisco%20lab.PNG)
+
+
 
 ## Skills Demonstrated
 
@@ -82,6 +84,27 @@ This confirmed successful inter-VLAN communication.
 
 [Download the Cisco Packet Tracer lab](Cisco-Routing-Switching-Lab.pkt)
 
-## Future Improvements
+## Phase 2: Multi-Router Network Expansion
 
-Expand the topology to include a second router, static routing, and OSPF dynamic routing.
+### Router-to-Router IP Addressing
+
+| Router | Interface | IP Address |
+|---|---|---|
+| R1 | GigabitEthernet0/1 | 10.0.0.1/30 |
+| R2 | GigabitEthernet0/0 | 10.0.0.2/30 |
+
+### Completed
+
+- Added a second Cisco 2911 router (R2).
+- Connected R1 GigabitEthernet0/1 to R2 GigabitEthernet0/0.
+- Configured the 10.0.0.0/30 point-to-point network.
+- Verified both router interfaces were operational.
+- Successfully tested router-to-router connectivity.
+
+### Next Steps
+
+- Add a second Cisco 2960 switch and PC4 behind R2.
+- Configure the 192.168.30.0/24 LAN.
+- Configure static routes between R1 and R2.
+- Test connectivity between PC1 and PC4.
+- Configure OSPF and compare it with static routing.
